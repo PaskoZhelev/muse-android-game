@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Muse</string>
+
+    <string name="rules"><b>RULES\n\n
+        <b>1.</b> Pick one player on your team to be the Muse. Try taking turns as
+Muse however you like!\n
+2. The team to your left draws 6 Masterpiece Cards and 2 Inspiration cards. \n
+3. That team secretly chooses and passes one of those Inspiration Cards
+and one of the Masterpiece Cards to your team’s Muse.\n
+4. Your team’s Muse reveals that Inspiration card, then gives your team a clue
+to lead you to the Masterpiece Card. Your Muse’s clue must follow the
+instructions printed on the Inspiration Card.\n
+5. The team to your left takes that Masterpiece Card, secretly shuffles
+it in with the other five they drew, and then lays them face-up for
+all players to see.\n
+6. You and your team work together and make one guess to discover which
+Masterpiece Card your Muse was handed in step 3. Your Muse can\'t
+speak or help you in any way other than by repeating the clue given in step 4.\n
+7. Your Muse reveals whether your guess is correct or incorrect. If correct,
+your team claims that card as your Masterpiece; if incorrect, the team to
+your left claims that card instead!\n\n
+Once your team has completed its turn, discard all cards used this turn.\n
+Reshuffle the discard pile into the deck if it runs out. Play passes to the
+next team clockwise in order.\n\n
+<b>The first team to claim 5 Masterpieces wins.</b></b></string>
+
+    <string name="copyright">All rights belong to Quick Simple Fun Games @ App is created by P. Zhelev</string>
+</resources>
