@@ -6,15 +6,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity {
+public class ChooseModeActivity extends AppCompatActivity {
 
-    Button playButton;
-    Button rulesButton;
+    Button normalButton;
+    Button randomButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_choose_mode);
 
         hideNavigationBar();
 
@@ -38,27 +38,27 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void setupButtons(){
-        playButton =  findViewById(R.id.playBtn);
-        rulesButton =  findViewById(R.id.rulesBtn);
+        normalButton =  findViewById(R.id.normalBtn);
+        randomButton =  findViewById(R.id.randomBtn);
 
-        playButton.setOnClickListener(new View.OnClickListener() {
+        normalButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
 
                 // Start MusePlayActivity.class
-                Intent myIntent = new Intent(MainActivity.this,
-                        ChooseModeActivity.class);
+                Intent myIntent = new Intent(ChooseModeActivity.this,
+                        MusePlayActivity.class);
                 startActivity(myIntent);
             }
         });
 
 
 
-        rulesButton.setOnClickListener(new View.OnClickListener() {
+        randomButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
 
-                // Start MusePlayActivity.class
-                Intent myIntent = new Intent(MainActivity.this,
-                        RulesActivity.class);
+                // Start MuseRandomPlayActivity.class
+                Intent myIntent = new Intent(ChooseModeActivity.this,
+                        MuseRandomPlayActivity.class);
                 startActivity(myIntent);
             }
         });

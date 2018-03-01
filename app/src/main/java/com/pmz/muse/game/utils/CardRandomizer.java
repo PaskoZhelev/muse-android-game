@@ -8,7 +8,7 @@ import java.util.List;
 
 public class CardRandomizer {
 
-    private static final int TOTAL_MASTERPIECE_CARDS_NUMBER = 234;
+    private static final int TOTAL_MASTERPIECE_CARDS_NUMBER = 257;
     private static final int TOTAL_INSPIRATION_CARDS_NUMBER = 30;
     private Deque<Integer> masterpieceCardsNumberStack;
     private Deque<Integer> inspirationCardsNumberStack;
